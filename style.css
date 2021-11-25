@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: url('https://media.istockphoto.com/photos/sports-equipment-with-rackets-and-balls-picture-id144808221?b=1&k=20&m=144808221&s=170667a&w=0&h=M8l-cFc3QE1jFOX07nPj3y9q0fXgxYV920vh4kfCKww=');
+    background-size: cover;
+}
+form{
+    margin-top: 50px;
+    text-align: center;
+}
+input{
+    display: block;
+    width: 350px;
+    height: 40px;
+    margin: 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-bottom: 1px solid white;
+    background: transparent;
+    color: white;
+}
+button{
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    background-color: blue;
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
+form h1{
+    margin-bottom: 30px;
+    color: white;
+}
+::placeholder{
+    color: white;
+}
+
